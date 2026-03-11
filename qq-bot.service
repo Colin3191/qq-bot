@@ -1,0 +1,14 @@
+[Unit]
+Description=QQ Chat Bot
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/git/qq-bot
+ExecStart=/root/git/qq-bot/.venv/bin/python -m qq_bot.main
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
