@@ -1,0 +1,15 @@
+{
+  "qq": {
+    "app_id": "你的QQ机器人AppID",
+    "secret": "你的QQ机器人AppSecret",
+    "allow_from": ["*"]
+  },
+  "zhipu": {
+    "api_key": "你的智谱API Key",
+    "model": "glm-4.7",
+    "system_prompt": "你是一个友好的 QQ 聊天机器人。",
+    "temperature": 0.7,
+    "max_tokens": 4096
+  },
+  "max_history": 20
+}
